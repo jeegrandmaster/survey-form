@@ -1,0 +1,73 @@
+label, #submit{
+    display: block;
+  }
+  body{
+    background-color: #00302c;
+    background-image: url('https://lh3.google.com/u/0/d/1qXQXDunlgDAYCVJeefno-hF6H1FJ_AHY=w1920-h912-iv2');
+    height: auto;
+    color: #FFCBA4;
+    font-family: 'Poppins', cursive;
+
+  }
+  
+  div{
+    text-align: center;
+    color: #FFFFF0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  input, textarea, select{
+    background-color: #005C57;
+    margin: 0;
+    font-family: inherit;
+    line-height: 1.4;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 8px;
+  }
+  input[type = "radio"], input[type = "checkbox"]{
+    accent-color: #005C57;
+  }
+  ::placeholder{
+    color: #d3d3d3;
+    opacity: 1;
+  }
+  
+  fieldset {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-width: 2px;
+    border-color: white;
+    margin: 0;
+    padding: none;
+    margin-bottom: 0.5em;
+  }
+  fieldset:last-of-type{
+    border-bottom: none;
+  }
+  form{
+    /* border: 3px solid red; */
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: #00302c;
+    opacity: 0.68;
+  }
+  legend{
+    padding-inline: 0 0;
+    margin-inline: 0 0;
+  }
+  p{
+    margin-bottom: 0;
+  }
+  #submit{
+    margin: auto;
+    color: #FFFFFF;
+  }
+  
