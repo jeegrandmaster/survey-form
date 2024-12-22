@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Survey Form
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="title">JEEGrandMaster Survey Form</h1>
+        <h3>
+            <p id="description">Just fill the form and get over with it</p>
+        </h3>
+    </div>
+
+    <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Enter your name: <input id="name" type="text"
+                    placeholder="Jhonny Sinewave" required /></label>
+            <label for="email" id="email-label">What's your mail? <input id="email" type="email"
+                    placeholder="mia@burj.cum" required></label>
+            <label for="number" id="number-label">Phone number please: <input id="number" type="number" min="1000000000"
+                    max="1000000000000" placeholder="6969696969">
+                <label id="select-label">Himmat hai to idhar dekh
+                    <select id="dropdown">
+                        <option>Dare you to click here</option>
+                        <option>We are Hiring Bobby!</option>
+                        <option>YEaaah!!!</option>
+                    </select>
+                </label>
+        </fieldset>
+        <fieldset>
+            <legend>How are you?</legend>
+            <label for="fine"><input id="fine" type="radio" name="health" value="Fine" checked />Fine</label>
+            <label for="good"><input id="good" type="radio" name="health" value="Good" checked />Good</label>
+            <label>
+        </fieldset>
+        <fieldset>
+            <legend>Select all that apply:</legend>
+            <label for="hired"><input id="hired" type="checkbox" name="employment status" value="hired"
+                    checked>Developer of this site is hired</label>
+            <label for="ceo"><input id="ceo" type="checkbox" name="empoyment staus" value="ceo" checked>I want to make
+                him ceo</label>
+        </fieldset>
+        <fieldset>
+            <label for="finalNote">
+                <p>Your final thoughts: </p>
+                <textarea id="finalNote" placeholder="I am so keen and eager to hire the developer of this site..."
+                    rows="3" cols="35"></textarea>
+            </label>
+            <label for="affidavit"><input id="affidavit" type="checkbox" value="agreed" name="affidavit">I acknowledge
+                that all of the details given by me are true and correct to my knowledge as of <\current date>.
+                    <input id="submit" type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
